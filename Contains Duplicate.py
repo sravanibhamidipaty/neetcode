@@ -23,5 +23,3 @@ def hasDuplicate(nums: List[int]) -> bool:
         hasSeen.add(num)
 
     return False
-
-print(hasDuplicate([1, 2, 3, 1]))
